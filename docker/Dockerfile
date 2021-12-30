@@ -9,7 +9,7 @@
 #
 # docker run -i --rm -p 8081:8081 springboot/sample-demo
 ####
-FROM maven:3-jdk-11
+FROM maven:3.8.4-openjdk-17-slim
 
 WORKDIR /build
 
